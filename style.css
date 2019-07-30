@@ -1,0 +1,157 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+
+
+header{
+    background:black;
+    height:10vh;
+    width:100%;
+    position:fixed;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+
+}
+
+.left{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.logo{
+    height:10vh;
+    width:16vw;
+    
+}
+.rockets{
+    color:white;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size:16px
+    
+}
+
+.nav{
+    color:gray;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    font-size: 13px
+
+}
+
+ul > li {
+    margin:10px
+}
+
+.main-img{
+    height:70vh;
+    width:100%;
+    margin-top:10vh;
+}
+
+h1{
+    font-size:16px;
+    text-align: center;
+    margin: 10vh ;
+}
+
+.parent-box{
+    display:flex;
+    justify-content: space-evenly;
+    margin-bottom: 15vh;
+}
+
+.box1{
+    height:20vh;
+    width:20vw;
+    background:white;
+    box-shadow: 0 0 5px gray;
+}
+
+.shuttle{
+    height:10vh;
+    width: 16vw;
+    margin-left:28px;
+    margin-top: 15px;
+}
+
+.box2{
+    height:20vh;
+    width:20vw;
+    background:white;
+    box-shadow: 0 0 5px gray ;
+}
+
+.command-center{
+    height:10vh;
+    width: 16vw;
+    margin-left:28px;
+    margin-top: 15px;
+}
+
+.box3{
+    height:20vh;
+    width:20vw;
+    background:white;
+    box-shadow: 0 0 6px gray;
+}
+
+.alien{
+    height:10vh;
+    width: 16vw;
+    margin-left:28px;
+    margin-top: 15px;
+}
+
+footer{
+    background:black;
+    height:5vh;
+    width:100%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+.footer-logo{
+    height:5vh;
+}
+
+.left-foot{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.foot-ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    color:white;
+    font-size:13px;
+}
+
+.right-foot{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items: center;
+    list-style: none;
+    color:gray;
+    font-size: 12px;
+}
+
